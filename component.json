@@ -1,0 +1,16 @@
+{
+  "name": "cmp-openid",
+  "repo": "onclickstudios/cmp-openid",
+  "description": "Basic openid links container",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+    "tjb1982/hoquet":"*"
+  },
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ]
+}
