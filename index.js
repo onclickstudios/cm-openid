@@ -1,9 +1,9 @@
-module.exports = function(providers) {
+module.exports = function cmOpenid (providers) {
   return (
     ["div",
-      {class:"openid-providers"},
+      {class:"cm cm-openid"},
       providers.map(function(p) {
-        return (["a", {"href": "/auth/openid/" + p.name}, p.name]);
+        return (["a", {"href": p.returnURI }, p.name]);
       })]
   );
 };

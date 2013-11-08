@@ -1,5 +1,5 @@
 
-# nclk-form-openid
+# cm-openid
 
   Basic openid links
 
@@ -7,7 +7,7 @@
 
   Install with [component(1)](http://component.io):
 
-    $ component install onclickstudios/nclk-form-openid
+    $ component install onclickstudios/cm-openid
 
 ## API
 
