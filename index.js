@@ -3,7 +3,7 @@ module.exports = function cmOpenid (providers) {
     ["div",
       {class:"cm cm-openid"},
       providers.map(function(p) {
-        return (["a", {"href": p.returnURI }, p.name]);
+        return (["a", {"href": p.authURI }, p.name]);
       })]
   );
 };
