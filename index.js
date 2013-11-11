@@ -4,7 +4,7 @@ module.exports = function cmOpenid (context) {
   return (
     ["div",
       {class:"cm cm-openid"},
-      context.providers.map(function(p) {
+      context.openIDProviders.map(function(p) {
         return (["a", {"href": p.authURI + (context.query || '')}, p.name]);
       })]
   );
